@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sprout, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Sprout, Phone, Mail, MapPin, Twitter, Linkedin, Facebook } from 'lucide-react';
+import SatelliteLogo from './SatelliteLogo';
 
 const Footer = () => {
     return (
@@ -12,7 +13,7 @@ const Footer = () => {
                     <div className="col-span-1">
                         <div className="flex items-center gap-2 mb-4">
                             <div className="bg-emerald-500/10 p-2 rounded-lg border border-emerald-500/20">
-                                <Sprout className="w-5 h-5 text-emerald-400" />
+                                <SatelliteLogo className="w-5 h-5 text-emerald-400" />
                             </div>
                             <span className="text-xl font-bold text-white">
                                 AgroSentinel

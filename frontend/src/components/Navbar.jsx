@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sprout, Menu, X } from 'lucide-react';
+import { Sprout, Menu, X, Globe, LogIn } from 'lucide-react';
+import SatelliteLogo from './SatelliteLogo';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
@@ -12,8 +13,8 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2 group">
-                        <div className="bg-emerald-500/10 p-2 rounded-lg group-hover:bg-emerald-500/20 transition-colors">
-                            <Sprout className="h-6 w-6 text-emerald-500" />
+                        <div className="bg-emerald-500/10 p-2 rounded-lg border border-emerald-500/20 shadow-inner">
+                            <SatelliteLogo className="w-6 h-6 text-emerald-400" />
                         </div>
                         <span className="text-xl font-bold bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
                             AgroSentinel
