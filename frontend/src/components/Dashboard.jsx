@@ -296,7 +296,7 @@ const Dashboard = () => {
         return null;
     };
 
-    const overlayImage = selectedFarmData?.raw_analysis
+    const overlayImage = selectedFarmData?.raw_analysis?.image_base64
         ? (activeLayer === 'ndvi' && selectedFarmData.raw_analysis.ndvi_image_base64
             ? `data:image/png;base64,${selectedFarmData.raw_analysis.ndvi_image_base64}`
             : `data:image/png;base64,${selectedFarmData.raw_analysis.image_base64}`)

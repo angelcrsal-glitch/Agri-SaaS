@@ -176,10 +176,11 @@ const MapComponent = ({ onPolygonCreated, overlayImage, overlayBounds, activePol
                 style={{ height: "100%", width: "100%" }}
             >
                 <MapStatePreserver />
-                {/* CartoDB Voyager Tiles (No labels variant often cleaner, but standard voyager is good) */}
+                {/* Premium Satellite Basemap */}
                 <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-                    url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+                    attribution='&copy; <a href="https://www.esri.com/">Esri</a>'
+                    url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                    maxZoom={19}
                 />
                 <FeatureGroup ref={featureGroupRef}>
                     <EditControl
