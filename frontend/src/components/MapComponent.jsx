@@ -44,7 +44,7 @@ const MapStatePreserver = () => {
     return null;
 };
 
-const MapComponent = ({ onPolygonCreated, overlayImage, overlayBounds, activePolygon }) => {
+const MapComponent = ({ onPolygonCreated, overlayImage, overlayBounds, activePolygon, activeLayer }) => {
     const [mapLayers, setMapLayers] = useState([]);
     const safeBounds = fixBounds(overlayBounds);
     const featureGroupRef = useRef(null);
@@ -210,16 +210,11 @@ const MapComponent = ({ onPolygonCreated, overlayImage, overlayBounds, activePol
                         <Polygon
                             key={layer.id}
                             positions={layer.latlngs}
-                            pathOptions={overlayImage ? {
-                                color: "white",
-                                fillColor: "transparent",
-                                fillOpacity: 0,
-                                weight: 3
-                            } : {
-                                color: "#059669",
-                                fillColor: "#059669",
-                                fillOpacity: 0.4,
-                                weight: 2
+                            pathOptions={{
+                                color: activeLayer === 'ndvi' ? "#ef4444" : (overlayImage ? "white" : "#059669"),
+                                fillColor: activeLayer === 'ndvi' ? "#f59e0b" : "#059669",
+                                fillOpacity: activeLayer === 'ndvi' ? 0.6 : (overlayImage ? 0 : 0.4),
+                                weight: activeLayer === 'ndvi' ? 2 : (overlayImage ? 3 : 2)
                             }}
                         />
                     ))}
@@ -250,7 +245,12 @@ const MapComponent = ({ onPolygonCreated, overlayImage, overlayBounds, activePol
                                     return ring.map(p => (Array.isArray(p) ? [p[1], p[0]] : p));
                                 })()
                             }
-                            pathOptions={{ color: '#059669', fillColor: '#059669', opacity: 0.5 }}
+                            pathOptions={{
+                                color: activeLayer === 'ndvi' ? "#ef4444" : "#059669",
+                                fillColor: activeLayer === 'ndvi' ? "#f59e0b" : "#059669",
+                                fillOpacity: activeLayer === 'ndvi' ? 0.6 : (overlayImage ? 0 : 0.5),
+                                weight: 2
+                            }}
                         />
                     )}
                 </FeatureGroup>

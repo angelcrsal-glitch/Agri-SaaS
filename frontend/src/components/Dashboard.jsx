@@ -346,6 +346,7 @@ const Dashboard = () => {
                         overlayImage={overlayImage}
                         overlayBounds={selectedFarmData?.raw_analysis?.image_bounds}
                         activePolygon={selectedField?.geometry?.coordinates || selectedField?.polygon || selectedFarmData?.geometry?.coordinates}
+                        activeLayer={activeLayer}
                     />
                     <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-slate-950/70 via-transparent to-slate-950/30 z-[1]" />
                 </div>
