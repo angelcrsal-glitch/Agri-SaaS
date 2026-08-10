@@ -1,0 +1,2 @@
+from sentinelhub import SentinelHubStatistical
+print(SentinelHubStatistical.__init__.__code__.co_varnames)
