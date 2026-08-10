@@ -1,0 +1,173 @@
+INFO:     Will watch for changes in these directories: ['/Users/jcpezzat/Desktop/AgriSaaS/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1898] using StatReload
+INFO:     Started server process [1901]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+SMS Scheduler Worker Started
+INFO:     127.0.0.1:49729 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49729 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49737 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49737 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49739 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49739 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49739 - "GET /api/v1/market-prices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49740 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49740 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49755 - "OPTIONS /analyze-risk HTTP/1.1" 200 OK
+SentinelHub Version: 3.11.3
+Debug: Resizing image from 4752x5318 to 2234x2500 to fit API limits.
+Debug: Resizing image from 4752x5318 to 2234x2500 to fit API limits.
+Debug: Resizing image from 4752x5318 to 2234x2500 to fit API limits.
+Debug: Found 0 valid NDVI points. Threshold is 3. Triggering fallback.
+Using Fallback Mock History (Simulated Data)
+INFO:     127.0.0.1:49755 - "POST /analyze-risk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49756 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49763 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49766 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49774 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49766 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49766 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+Debug: Found 0 valid NDVI points. Threshold is 3. Triggering fallback.
+Using Fallback Mock History (Simulated Data)
+INFO:     127.0.0.1:49792 - "POST /analyze-risk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49801 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49801 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49801 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49792 - "OPTIONS /recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49801 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49792 - "POST /recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49802 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49802 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49803 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49803 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49805 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49805 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49806 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49806 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49806 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49806 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49806 - "GET /api/v1/alerts/preferences/00000000-0000-0000-0000-000000000000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49806 - "OPTIONS /api/v1/notify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49806 - "POST /api/v1/notify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49849 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49849 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49851 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49851 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49865 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49865 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49872 - "GET /api/v1/market-prices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49879 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49879 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49879 - "GET /api/v1/market-prices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49880 - "GET /api/v1/sensors/devices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49881 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49882 - "GET /api/v1/sensors/history/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49883 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49884 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49884 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49887 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49887 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49887 - "GET /api/v1/sensors/devices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49888 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49889 - "GET /api/v1/sensors/history/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49890 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49892 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49893 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49893 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49893 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49893 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49893 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49893 - "GET /api/v1/sensors/devices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49894 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49895 - "GET /api/v1/sensors/history/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49896 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49897 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49898 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49899 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49899 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49900 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49901 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49901 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49901 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49903 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49903 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49904 - "GET /api/v1/farms/dca53fee-1bbd-48b0-8a23-d9e3a0041cdb/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49903 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49903 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49928 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49928 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49968 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50011 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50012 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50012 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50041 - "OPTIONS /analyze-risk HTTP/1.1" 200 OK
+Debug: Found 0 valid NDVI points. Threshold is 3. Triggering fallback.
+Using Fallback Mock History (Simulated Data)
+INFO:     127.0.0.1:50041 - "POST /analyze-risk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50041 - "OPTIONS /recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50042 - "POST /recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50055 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50055 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50058 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50058 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50072 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50072 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+Debug: Found 0 valid NDVI points. Threshold is 3. Triggering fallback.
+Using Fallback Mock History (Simulated Data)
+INFO:     127.0.0.1:50124 - "POST /analyze-risk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50124 - "POST /recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50135 - "OPTIONS /fields HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50135 - "POST /fields HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50135 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50138 - "GET /api/v1/farms/e48855ea-bbf2-4c71-bb58-9e019c6db0c7/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50136 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50136 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50142 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50142 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50143 - "GET /api/v1/farms/e48855ea-bbf2-4c71-bb58-9e019c6db0c7/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50143 - "GET /api/v1/farms/e48855ea-bbf2-4c71-bb58-9e019c6db0c7/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50145 - "GET /api/v1/alerts/preferences/00000000-0000-0000-0000-000000000000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50146 - "GET /api/v1/notify/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50145 - "GET /api/v1/alerts/preferences/00000000-0000-0000-0000-000000000000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50146 - "GET /api/v1/notify/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50148 - "GET /api/v1/notify/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50149 - "OPTIONS /api/v1/notify/schedule HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50149 - "POST /api/v1/notify/schedule HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50149 - "GET /api/v1/notify/pending HTTP/1.1" 200 OK
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<SMSScheduler.worker_loop() done, defined at /Users/jcpezzat/Desktop/AgriSaaS/backend/services/sms_scheduler.py:31> exception=TypeError("can't compare offset-naive and offset-aware datetimes")>
+Traceback (most recent call last):
+  File "/Users/jcpezzat/Desktop/AgriSaaS/backend/services/sms_scheduler.py", line 37, in worker_loop
+    if msg["status"] == "pending" and now >= msg["send_at"]:
+                                      ^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+INFO:     127.0.0.1:50149 - "GET /api/v1/notify/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50149 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50149 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50149 - "GET /api/v1/alerts/preferences/00000000-0000-0000-0000-000000000000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50149 - "OPTIONS /api/v1/alerts/preferences HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50150 - "POST /api/v1/alerts/preferences HTTP/1.1" 200 OK
+AI Error: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your API key was reported as leaked. Please use another API key.', 'status': 'PERMISSION_DENIED'}}
+INFO:     127.0.0.1:50153 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50156 - "GET /api/v1/sensors/devices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50157 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50158 - "GET /api/v1/sensors/history/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50159 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50160 - "GET /api/v1/sensors/latest/ESP32-CAMPO-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50167 - "GET /api/v1/market-prices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50171 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50171 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50173 - "OPTIONS /api/v1/compliance/audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50173 - "POST /api/v1/compliance/audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50175 - "OPTIONS /api/v1/compliance/download-report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50175 - "POST /api/v1/compliance/download-report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50178 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50178 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50183 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50183 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50195 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50195 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50195 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50195 - "GET /fields/fb1d5e1d-4b4b-4a7b-b253-e54fede94bc1 HTTP/1.1" 404 Not Found

@@ -26,6 +26,7 @@ import Footer from '../components/Footer';
 import CfeConaguaSection from '../components/CfeConaguaSection';
 import TargetProfilesSection from '../components/TargetProfilesSection';
 import LandingPricingSection from '../components/LandingPricingSection';
+import UseCases from '../components/UseCases';
 
 const Landing = () => {
     return (
@@ -108,6 +109,9 @@ const Landing = () => {
 
                 {/* 2. TARGET PROFILES & PROBLEMS RESOLVED */}
                 <TargetProfilesSection />
+
+                {/* 3. TECHNOLOGY & USE CASES (Satellite Images) */}
+                <UseCases />
 
                 {/* 3. CFE & CONAGUA CASE STUDY */}
                 <CfeConaguaSection />

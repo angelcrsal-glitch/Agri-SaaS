@@ -30,7 +30,7 @@ const Navbar = () => {
                             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                             CFE & CONAGUA
                         </a>
-                        <a href="#industrias" className="text-sm font-medium text-slate-300 hover:text-white transition-colors">
+                        <a href="#industrias" className="hidden">
                             Cultivos
                         </a>
                         <a href="#features" className="text-sm font-medium text-slate-300 hover:text-white transition-colors">
