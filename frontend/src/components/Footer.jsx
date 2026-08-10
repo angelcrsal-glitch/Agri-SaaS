@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sprout, Phone, Mail, MapPin, Twitter, Linkedin, Facebook } from 'lucide-react';
+import { Sprout, Phone, Mail, MapPin, Twitter, Linkedin, Facebook, Instagram } from 'lucide-react';
 import SatelliteLogo from './SatelliteLogo';
 
 const Footer = () => {
