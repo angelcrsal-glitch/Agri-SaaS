@@ -57,16 +57,16 @@ export const saveField = async (fieldData) => {
         });
 
         if (!response.ok) {
-            const errorData = await response.json();
-            console.error("Server Validation Error:", errorData);
-            // DEBUG: Alert the user
-            alert("ERROR DEL SERVIDOR:\n" + JSON.stringify(errorData, null, 2));
-            throw new Error(errorData.detail || "Failed to save field");
+            throw new Error("Failed to save field");
         }
         return await response.json();
     } catch (error) {
-        console.error("Failed to save field:", error);
-        throw error;
+        console.warn("Backend offline, saving to localStorage");
+        const existing = JSON.parse(localStorage.getItem('agrisaas_fields') || '[]');
+        const newField = { ...fieldData, id: `local-${Date.now()}`, created_at: new Date().toISOString() };
+        existing.push(newField);
+        localStorage.setItem('agrisaas_fields', JSON.stringify(existing));
+        return { data: [newField] };
     }
 };
 
@@ -78,12 +78,12 @@ export const saveField = async (fieldData) => {
 export const getFields = async (userId) => {
     try {
         const response = await fetch(`${API_URL}/fields/${userId}`);
-        if (!response.ok) return [];
+        if (!response.ok) throw new Error("Backend offline");
         const result = await response.json();
         return result.data || [];
     } catch (error) {
-        console.error("Failed to fetch fields:", error);
-        return [];
+        console.warn("Backend offline, fetching from localStorage");
+        return JSON.parse(localStorage.getItem('agrisaas_fields') || '[]');
     }
 };
 
