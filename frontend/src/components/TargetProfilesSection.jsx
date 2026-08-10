@@ -37,9 +37,9 @@ const TargetProfilesSection = () => {
             title: '2. Huertas de Alto Valor (Aguacate, Berries, Nogal, Agave)',
             regions: 'Jalisco, Michoacán, Sinaloa, Sonora, Chihuahua, Guanajuato',
             highlight: 'Ahorro Eléctrico en Bombas de 30-150 HP & Prevención Radicular',
-            pain: 'Los encargados de pozo activan las bombas entre 6:00 PM y 10:00 PM (Horario Punta CFE), inflando el recibo de luz en decenas de miles de pesos mensuales por desconocimiento.',
-            howWeSolve: 'AgriSaaS calcula el déficit hídrico en milímetros y envía automáticamente un mensaje SMS a las 23:30 al celular del bombero: "Activar Bomba 1 ahora en Tarifa 9N Nocturna ($0.38/kWh)".',
-            results: 'Ahorro directo de $25,000 a $65,000+ MXN al mes en luz por cada pozo agrícola.',
+            pain: 'Los sobrecostos eléctricos merman la utilidad. El encendido manual de bombas de pozo en Horario Punta infla el recibo en más de $60,000 MXN.',
+            howWeSolve: 'AgroSentinel calcula el déficit hídrico en milímetros y envía automáticamente un mensaje SMS a las 23:30 al celular del bombero: "Activar Bomba 1 ahora en Tarifa 9N Nocturna ($0.38/kWh)".',
+            results: 'Ahorro de $25,000 a $65,000 MXN mensuales por pozo.',
             accentBorder: 'border-emerald-500/30 hover:border-emerald-500/60',
             accentBg: 'bg-emerald-950/20'
         },
@@ -94,7 +94,7 @@ const TargetProfilesSection = () => {
                             <Sparkles className="w-4 h-4" /> Claridad de Negocio
                         </div>
                         <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight mb-6">
-                            ¿Para Quién es AgriSaaS y <br className="hidden sm:inline" />
+                            ¿Para Quién es AgroSentinel y <br className="hidden sm:inline" />
                             <span className="bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
                                 Qué Problemas Concretos Resolvemos?
                             </span>

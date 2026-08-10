@@ -16,7 +16,7 @@ const Navbar = () => {
                             <Sprout className="h-6 w-6 text-emerald-500" />
                         </div>
                         <span className="text-xl font-bold bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
-                            AgriSaaS
+                            AgroSentinel
                         </span>
                     </Link>
 

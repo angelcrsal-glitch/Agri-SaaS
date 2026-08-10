@@ -74,9 +74,9 @@ const CfeConaguaSection = () => {
                                     </div>
                                 </div>
 
-                                {/* AgriSaaS Solution */}
+                                {/* AgroSentinel Solution */}
                                 <div className="space-y-4 mb-8">
-                                    <h4 className="text-sm font-black uppercase tracking-wider text-slate-400">Cómo lo resuelve AgriSaaS:</h4>
+                                    <h4 className="text-sm font-black uppercase tracking-wider text-slate-400">Cómo lo resuelve AgroSentinel:</h4>
                                     
                                     <div className="flex items-start gap-3.5">
                                         <div className="w-7 h-7 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center shrink-0 mt-0.5">
@@ -158,9 +158,9 @@ const CfeConaguaSection = () => {
                                     </div>
                                 </div>
 
-                                {/* AgriSaaS Solution */}
+                                {/* AgroSentinel Solution */}
                                 <div className="space-y-4 mb-8">
-                                    <h4 className="text-sm font-black uppercase tracking-wider text-slate-400">Cómo lo resuelve AgriSaaS:</h4>
+                                    <h4 className="text-sm font-black uppercase tracking-wider text-slate-400">Cómo lo resuelve AgroSentinel:</h4>
                                     
                                     <div className="flex items-start gap-3.5">
                                         <div className="w-7 h-7 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center shrink-0 mt-0.5">
@@ -223,7 +223,7 @@ const CfeConaguaSection = () => {
                             {/* Mock SMS Card */}
                             <div className="bg-slate-950 p-5 rounded-2xl border border-emerald-500/30 shadow-xl relative">
                                 <div className="flex items-center gap-2 mb-3 pb-2 border-b border-white/5 text-[11px] font-mono text-emerald-400">
-                                    <Zap className="w-3.5 h-3.5" /> AgriSaaS • CFE Alerta Nocturna
+                                    <Zap className="w-3.5 h-3.5" /> AgroSentinel • CFE Alerta Nocturna
                                 </div>
                                 <p className="text-xs text-slate-200 leading-relaxed font-sans">
                                     <span className="font-bold text-emerald-400">[ALERTA RIEGO CFE]</span> Lote Norte necesita 45mm de agua. Iniciar bombeo a las <strong>11:00 PM (Tarifa Valle CFE)</strong>. Ahorro estimado vs horario diurno: <strong>$1,850 MXN</strong>.

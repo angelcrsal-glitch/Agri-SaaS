@@ -10,15 +10,15 @@ const Footer = () => {
 
                     {/* Column 1: Brand */}
                     <div className="col-span-1">
-                        <Link to="/" className="flex items-center space-x-2 group mb-4">
-                            <div className="bg-emerald-500/10 p-2 rounded-lg group-hover:bg-emerald-500/20 transition-colors">
-                                <Sprout className="h-6 w-6 text-emerald-500" />
+                        <div className="flex items-center gap-2 mb-4">
+                            <div className="bg-emerald-500/10 p-2 rounded-lg border border-emerald-500/20">
+                                <Sprout className="w-5 h-5 text-emerald-400" />
                             </div>
-                            <span className="text-xl font-bold bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
-                                AgriSaaS
+                            <span className="text-xl font-bold text-white">
+                                AgroSentinel
                             </span>
-                        </Link>
-                        <p className="text-slate-400 text-sm leading-relaxed mb-4">
+                        </div>
+                        <p className="text-slate-400 text-xs sm:text-sm max-w-xs leading-relaxed">
                             Plataforma de inteligencia satelital e IA aplicada a la agricultura de precisión en México y Latinoamérica.
                         </p>
                     </div>
@@ -70,9 +70,9 @@ const Footer = () => {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-slate-500 text-sm">
-                        &copy; 2026 AgriSaaS. Todos los derechos reservados. Desarrollado para el sector agrícola.
+                <div className="pt-8 border-t border-slate-800/80 flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p className="text-slate-500 text-xs">
+                        &copy; 2026 AgroSentinel. Todos los derechos reservados. Desarrollado para el sector agrícola.
                     </p>
                     <div className="flex space-x-6">
                         <a href="#" className="text-slate-500 hover:text-white transition-colors">

@@ -124,7 +124,7 @@ const Pricing = () => {
 
     const faqs = [
         {
-            q: '¿Cómo logra AgriSaaS ahorrarme hasta un 35% en el recibo de CFE?',
+            q: '¿Cómo logra AgroSentinel ahorrarme hasta un 35% en el recibo de CFE?',
             a: 'La tarifa agrícola de CFE cobra hasta $2.89/kWh en Horario Punta (18:00 a 22:00 hrs) y solo $0.38/kWh en Horario Nocturno (Tarifa 9N). Nuestro algoritmo calcula cuántos milímetros de agua le faltan a tu suelo y programa el encendido de bomba a las 23:30 hrs enviando un SMS automático al celular del bombero. Al bombear en tarifa subsidiada, el ahorro es inmediato en el siguiente recibo de luz.'
         },
         {
