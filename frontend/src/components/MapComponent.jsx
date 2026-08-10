@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MapContainer, TileLayer, FeatureGroup, Polygon, Popup, ImageOverlay, useMapEvents } from 'react-leaflet';
-import { EditControl } from "react-leaflet-draw";
+// import { EditControl } from "react-leaflet-draw"; // REMOVED DUE TO VITE BUILD CRASH
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 
@@ -182,7 +182,7 @@ const MapComponent = ({ onPolygonCreated, overlayImage, overlayBounds, activePol
                     url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
                 />
                 <FeatureGroup ref={featureGroupRef}>
-                    <EditControl
+                    {/* <EditControl
                         position="topleft"
                         onCreated={_onCreate}
                         onDeleted={_onDeleted}
@@ -205,7 +205,7 @@ const MapComponent = ({ onPolygonCreated, overlayImage, overlayBounds, activePol
                                 }
                             }
                         }}
-                    />
+                    /> */}
                     {mapLayers.map((layer) => (
                         <Polygon
                             key={layer.id}
