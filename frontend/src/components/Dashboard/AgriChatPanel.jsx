@@ -177,7 +177,7 @@ const AgriChatPanel = ({ field, onClose }) => {
             <div className="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-900/50">
                 <div>
                     <h2 className="text-lg font-semibold text-slate-100 flex items-center gap-2">
-                        <span>{field ? '🌱' : '🤖'}</span> {field ? `Monitoring: ${field.name}` : 'AgriSaaS AI Agent'}
+                        <span>{field ? '🌱' : '🤖'}</span> {field ? `Monitoring: ${field.name}` : 'AgroSentinel AI Agent'}
                     </h2>
                 </div>
                 <button

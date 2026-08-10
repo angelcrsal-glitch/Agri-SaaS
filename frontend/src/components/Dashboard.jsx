@@ -337,7 +337,7 @@ const Dashboard = () => {
                                 <Sprout className="text-emerald-400 h-5 w-5" />
                             </div>
                             <div>
-                                <h1 className="text-sm font-black text-white tracking-tight leading-none">AgriSaaS</h1>
+                                <h1 className="text-sm font-black text-white tracking-tight leading-none">AgroSentinel</h1>
                                 <div className="flex items-center gap-1.5 mt-0.5">
                                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
                                     <p className="text-[8px] uppercase tracking-widest text-emerald-400 font-bold">Sentinel-2 Live</p>
