@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Routes, Route, Navigate, Outlet } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import { supabase } from './lib/supabase';
+import { Analytics } from '@vercel/analytics/react';
 import Landing from './pages/Landing';
 import About from './pages/About';
 import Pricing from './pages/Pricing';
@@ -56,9 +57,7 @@ function App() {
 
   // Wrapper for protected routes to handle session check
   const ProtectedRoute = ({ session }) => {
-    if (!session) {
-      return <Navigate to="/login" replace />;
-    }
+    // For Vercel Pitch Demo: Bypass authentication to allow public access
     return <Layout />;
   };
 
@@ -85,6 +84,7 @@ function App() {
         </Route>
       </Routes>
       <Toaster richColors position="top-right" closeButton theme="light" />
+      <Analytics />
     </>
   );
 }
